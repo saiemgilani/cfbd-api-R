@@ -1,0 +1,9 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw
+^.swagger-codegen-ignore
+^.swagger-codegen
+^CODE_OF_CONDUCT\.md$
+^LICENSE\.md$
+.gitignore
+^.github

@@ -1,0 +1,13 @@
+Package: cfbd
+Title: College Football Data API client
+Version: 0.0.0.9
+Authors@R: person('Saiem', 'Gilani', email = 'saiem.gilani@gmail.com',role = c('aut','cre'))
+Maintainer: Saiem Gilani <saiem.gilani@gmail.com>
+Description: The R package cfbd is an API client for CollegeFootballData.com.
+License: MIT + file LICENSE
+LazyData: true
+URL: https://saiemgilani.github.io/cfbd-api-R (website) https://www.github.com/saiemgilani/cfbd-api-R (devel)
+BugReports: http://www.github.com/saiemgilani/cfbd-api-R/issues
+Imports: jsonlite, httr, R6
+Encoding: UTF-8
+RoxygenNote: 7.1.1
