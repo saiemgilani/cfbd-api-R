@@ -23,6 +23,12 @@
 #' }
 #'
 #' @export
+#' @examples 
+#' conf <- ConferencesApi$new()
+#' con <- conf$get_conferences()
+#' print(con)
+#' print(con$content)
+#' 
 ConferencesApi <- R6::R6Class(
   'ConferencesApi',
   public = list(

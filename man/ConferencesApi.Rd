@@ -15,6 +15,13 @@ get_conferences Conferences
 }
 }
 
+\examples{
+conf <- ConferencesApi$new()
+con <- conf$get_conferences()
+print(con)
+print(con$content)
+
+}
 \section{Public fields}{
 \if{html}{\out{<div class="r6-fields">}}
 \describe{
